@@ -1,7 +1,7 @@
 #include <stdio.h>
-/**
+/*
  * main - print line
- * Return: Always 0 
+ * Return: Always 
 */
 
 int main(void)
