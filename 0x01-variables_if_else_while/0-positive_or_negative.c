@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - prints if number is postive or negative even zero 
+ * main - prints if number is postive,zero or negative 
  * Return: Always (Success)
  * 
  */
