@@ -7,21 +7,21 @@
 
 int main(void)
 {
-	int n = 0;
-	long o = 1, p = 2;
-	while (n < 50)
+	int i = 0;
+	long j = 1, k = 2;
+	while (i < 50)
 	{
-	if (n == 0)
+	if (i == 0)
 	printf("%ld", 0);
-	else if (n == 1)
-	printf(", %ld", p);
+	else if (i == 1)
+	printf(", %ld", k);
 	else 
 	{
-	p += o;
-	o = p -0;
-        printf(", %ld", p);
+	k += j;
+	j = k - j;
+        printf(", %ld", k);
 	}
-	++n;
+	++i;
 	}
 	printf("\n");
 	return (0);
