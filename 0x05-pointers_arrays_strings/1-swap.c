@@ -8,6 +8,7 @@
  */
 
 void swap_int(int *a, int *b)
+/* swap for int  a and b to use the third one */
 {
 	int temp = *a;
 	*a = *b;
